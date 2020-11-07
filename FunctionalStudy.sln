@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Logging\Logging.csproj", "{92772E4E-14DC-4E37-9970-93F14CF6948E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logging", "Logging\Logging.csproj", "{92772E4E-14DC-4E37-9970-93F14CF6948E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicNetCoreLib", "BasicNetCoreLib\BasicNetCoreLib.csproj", "{54AAC9B2-2D95-4EC4-9E04-33F590B82821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicNetCoreService", "BasicNetCoreService\BasicNetCoreService.csproj", "{38509484-BEB6-48FA-AA05-F1E986DA5BAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{92772E4E-14DC-4E37-9970-93F14CF6948E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92772E4E-14DC-4E37-9970-93F14CF6948E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92772E4E-14DC-4E37-9970-93F14CF6948E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54AAC9B2-2D95-4EC4-9E04-33F590B82821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54AAC9B2-2D95-4EC4-9E04-33F590B82821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54AAC9B2-2D95-4EC4-9E04-33F590B82821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54AAC9B2-2D95-4EC4-9E04-33F590B82821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38509484-BEB6-48FA-AA05-F1E986DA5BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38509484-BEB6-48FA-AA05-F1E986DA5BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38509484-BEB6-48FA-AA05-F1E986DA5BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38509484-BEB6-48FA-AA05-F1E986DA5BAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
